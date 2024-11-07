@@ -7,7 +7,7 @@ Feature: Login
     Then I should be redirected to the dashboard page
 
 
-  @SmokeTest
+
   Scenario: Invalid login with invalid credentials
     Given I am Logout
     When I enter a invalid username and password
